@@ -47,7 +47,7 @@ function CheckoutPage() {
         `${item.perfume.nombre} (${item.perfume.marca}) x${item.cantidad} — S/ ${item.perfume.precio * item.cantidad}`
       ).join('\n') +
       `\n\n*Total: S/ ${totalPrecio}*\n` +
-      `Modalidad: Contraentrega 🚚`
+      `Modalidad: Contraentrega`
     )
 
     window.open(`https://wa.me/${numeroWhatsApp}?text=${mensaje}`, '_blank')
