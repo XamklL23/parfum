@@ -35,7 +35,7 @@ function CheckoutPage() {
 
   const onSubmit = (data: CheckoutForm) => {
     const mensaje = encodeURIComponent(
-      `🛍️ *Nuevo pedido — Perfumería Aura*\n\n` +
+      `*Nuevo pedido — Perfumería Aura*\n\n` +
       `*Datos del cliente:*\n` +
       `Nombre: ${data.nombre}\n` +
       `Teléfono: ${data.telefono}\n` +
