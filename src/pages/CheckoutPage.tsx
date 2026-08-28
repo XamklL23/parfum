@@ -44,7 +44,7 @@ function CheckoutPage() {
       `${data.referencia ? `Referencia: ${data.referencia}\n` : ''}` +
       `\n*Productos:*\n` +
       items.map((item) =>
-        `▪️ ${item.perfume.nombre} (${item.perfume.marca}) x${item.cantidad} — S/ ${item.perfume.precio * item.cantidad}`
+        `${item.perfume.nombre} (${item.perfume.marca}) x${item.cantidad} — S/ ${item.perfume.precio * item.cantidad}`
       ).join('\n') +
       `\n\n*Total: S/ ${totalPrecio}*\n` +
       `Modalidad: Contraentrega 🚚`
